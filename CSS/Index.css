@@ -1,0 +1,90 @@
+body{
+    background-color: #f0f2f5;
+    pad: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.title{
+    width: 600px;
+}
+.title h1{
+    color: #166fe5;
+    font-size: 70px;
+    font-weight: 70px;
+    margin-bottom: 10px;
+    line-height: 50px;
+}
+.title p{
+    color: #000;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 30px;
+}
+fieldset{
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    background: white;
+    border-radius: 7px;
+    margin-left: 60px;
+    box-shadow: 0px 1px 5px 1px rgba(71, 71, 71, 0.52);
+}
+fieldset input{
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    box-sizing: border-box;
+    border: 1px solid #eeebeb;
+    border-radius: 5px;
+    outline: none;
+}
+fieldset input:focus{
+    box-shadow: 0px 0px 1px 1px rgb(22, 111, 229);
+}
+fieldset button{
+    width: 100%;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 20px;
+    background-color: #166fe5;
+    font-weight: 650;
+    border: none;
+    padding: 13px 0;
+    cursor: pointer;
+}
+fieldset button:hover{
+    background-color: #1877f2;
+}
+fieldset a{
+    color: #166fe5;
+    font-size: 14px;
+    text-decoration: none;
+}
+fieldset a:hover{
+    text-decoration: underline;
+}
+fieldset hr{
+    border: 1px solid #dadde1;
+    margin-bottom: 15%;
+}
+fieldset .demo a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color: #36a420;
+    font-size: 600;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+fieldset .demo a:hover{
+    background-color: #42b72a;
+}
